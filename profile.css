@@ -14,50 +14,17 @@ body {
     background: #fff;
 }
 
-.profile-header {
-    text-align: center;
-}
-
-.profile-image {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 1rem;
-}
-
-h1 {
-    color: #1877f2;
-}
-
-.profile-info {
-    margin-bottom: 1.5rem;
-}
-
-.profile-label {
-    color: #606770;
-}
-
-.profile-value {
-    width: 100%;
-    padding: 0.8rem;
-    box-sizing: border-box;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    margin-top: 0.3rem;
-}
-
-.profile-button {
-    width: 100%;
-    padding: 1rem;
-    background-color: #1877f2;
+.activity-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    text-decoration: none;
     color: #fff;
-    border: none;
+    background-color: #1877f2;
+    margin-left: 19rem;
     border-radius: 4px;
-    cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-.profile-button:hover {
+.activity-button:hover {
     background-color: #145292;
 }
